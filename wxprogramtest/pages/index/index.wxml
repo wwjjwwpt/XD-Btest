@@ -1,0 +1,16 @@
+<view >
+  <view class="day-text">{{today}}</view>
+  <view class="temp-text">{{today_weather}}</view>
+  <view class="weather-wrapper">
+  <view class="location-text">{{location_text}}</view>
+  <view class="temp">{{temperature}}</view>
+  <view class="weather">
+    <text class="weather_txt">{{now_weather}}</text>
+    <text class="air_label">空气{{now_air}}</text>
+  </view>
+  <view class="weather1">
+    <text class="air_label1">空气质量指数</text>
+  </view>
+  <view class="temp">{{quanlity.air_now_city.aqi}}</view>
+</view>
+</view>

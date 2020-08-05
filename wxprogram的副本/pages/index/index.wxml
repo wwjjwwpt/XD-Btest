@@ -1,0 +1,29 @@
+<view >
+
+  <image class="background" src="/images/head.jpg" mode="aspectFill"></image>
+  <view class="imghead">
+    <text class = "headtext">查看今天的天气质量</text>
+  </view>
+  <view class="weather-wrapper">
+  <view class="location-text">{{location_text}}</view>
+  <view class="temp">{{temperature}}</view>
+  <view class="weather">
+    <text class="weather_txt">{{now_weather}}</text>
+    <text class="air_label">空气{{now_air}}</text>
+  </view>
+  <view class="weather">
+    <text class="air_label1">空气质量指数</text>
+  </view>
+  <view class="temp">{{quanlity}}</view>
+  <view class="day-weather">
+    <view class="day-text">{{today}}</view>
+    <view class="temp-text">{{today_weather}}</view>
+  </view>
+</view>
+<text style="margin-left:180rpx">未来24小时湿度和温度折线图</text>
+<canvas
+ style="margin-top:30px;width: 400px; height: 220px;"
+ canvas-id="yueEle"
+ binderror="canvasIdErrorCallback"
+></canvas>
+</view>

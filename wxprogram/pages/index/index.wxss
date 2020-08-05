@@ -1,0 +1,142 @@
+page{
+  background-color: #F5F5F5
+}
+.time{
+}
+.data{
+
+}
+.clo-1{
+  width: 300rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.num{
+
+}
+.level{
+  margin-left: 50rpx;
+}
+.sport{
+  margin-left: 10rpx;
+}
+.tip{
+  margin-left: 180rpx
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20rpx;
+  height: 150rpx;
+  width:650rpx;
+  background-color: #F5FFFA;
+  border-radius: 40rpx;
+}
+.headcontainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 750rpx;
+   margin-top: 20rpx;
+}
+.plistconhead{
+   width: 700rpx;
+   background-color: white;
+   display: flex;
+   margin-top: 10rpx;
+   border-bottom: 1px solid gray;
+   border-radius: 30rpx;
+   flex-direction: column;
+   align-items: center;
+}
+.headtext{
+  margin-top: 80rpx;
+  color: #e98f36
+}
+.imghead{
+  display: flex;
+  height: 200rpx;
+  flex-direction: column;
+  align-items: center;
+}
+.Htext{
+  font-family: sans-serif;
+}
+.pimage{
+  width: 750rpx;
+  height: 300rpx;
+}
+.background {
+  width: 100%;
+  height: 200rpx;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.input {
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+.weather-wrapper{
+  position: relative;
+  padding-top: 20rpx;
+  padding-bottom: 100rpx;
+}
+.location-text{
+  text-align: center;
+}
+.temp {
+  text-align:center;
+  font-size:200rpx;
+  line-height:280rpx;
+  opacity:0.8;
+}
+.weather {
+  margin-top: 30rpx;
+  text-align: center;
+  font-size: 30rpx;
+  opacity: 0.65;
+}
+.air_label{
+  margin-left: 20rpx;
+  border-radius: 10rpx;
+  padding:8rpx;
+}
+.air_label1{
+  margin-left: 15rpx;
+  border-radius: 10rpx;
+  padding:8rpx;
+}
+.day-weather {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom:0;
+  left: 40rpx;
+  right: 40rpx;
+  height: 90rpx;
+  font-size: 30rpx;
+  color: rgba(0, 0, 0, 0.5)
+}
+.temp-text {
+  flex-grow: 1;
+  padding-right: 30rpx;
+  text-align: right;
+}
+.pass{
+  display: flex;
+  flex-direction: row;
+}
+.city{
+  margin-left: 30rpx;
+}
+.timee{
+  margin-left: 40rpx;
+}
+.aqi{
+  margin-left: 40rpx;
+}
+
